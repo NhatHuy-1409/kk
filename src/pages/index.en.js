@@ -6,6 +6,7 @@ const IndexPage = () => {
     <main >
       <p>hihi</p>
       <Link to="kaka">kaykay</Link>
+      <p>wowo</p>
     </main>
   )
 }
