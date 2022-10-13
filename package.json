@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@formatjs/intl": "^2.4.2",
     "gatsby": "^4.24.4",
     "gatsby-plugin-i18n": "^1.0.1",
     "ptz-i18n": "^1.0.0",

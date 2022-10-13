@@ -1131,7 +1131,7 @@
   dependencies:
     "tslib" "2.4.0"
 
-"@formatjs/intl@2.4.2":
+"@formatjs/intl@^2.4.2", "@formatjs/intl@2.4.2":
   "integrity" "sha512-RuZT+fecObhWA4CuoDolftfbEYn1yaqTG4yiTSX7W6vnvAupZOqyZXctzebtQ9pDhm6uHHNQSLQ0NL3Y8pCi9g=="
   "resolved" "https://registry.npmjs.org/@formatjs/intl/-/intl-2.4.2.tgz"
   "version" "2.4.2"
