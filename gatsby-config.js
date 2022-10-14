@@ -13,7 +13,7 @@ module.exports = {
       options: {        
         langKeyDefault: languages.defaultLangKey,// tự động chuyển đến trang có langkeydefault.js
         useLangKeyLayout: false,
-        prefixDefault: false,//giúp phát hiện file index theo langkeydefault
+        prefixDefault: true,//giúp phát hiện file index theo langkeydefault
         langKeyForNull: 'any',
       }
     }
