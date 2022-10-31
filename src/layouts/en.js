@@ -8,15 +8,7 @@ import Layout from '.';
 import {createIntl, createIntlCache} from '@formatjs/intl'
 
 // addLocaleData(en);
-const cache = createIntlCache()
 
-const intl = createIntl(
-  {
-    locale: 'en',
-    messages: {},
-  },
-  cache
-)
 
 export default (props) => (
   <Layout
