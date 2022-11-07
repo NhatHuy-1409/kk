@@ -5,14 +5,15 @@ exports.createPages = async ({ graphql, actions }) => {
     fromPath: `/`,
     toPath: `/vi`,
     conditions: { 
-        country: `vn` 
+        // country: `vn` 
+        language:`vn`
       } 
   });
 	createRedirect({
     fromPath: `/`,
-    toPath: `/de`,
+    toPath: `/en`,
     conditions: { 
-        country: `de` 
+        language: `en` 
       } 
   });
 }
