@@ -10,7 +10,7 @@ exports.createPages = async ({ graphql, actions }) => {
       } 
   });
 	createRedirect({
-    fromPath: `https://kkmaster.gatsbyjs.io/about`,
+    fromPath: `/about`,
     toPath: `https://kkmaster.gatsbyjs.io/aboutvn`,
     statusCode: 200,
   });
