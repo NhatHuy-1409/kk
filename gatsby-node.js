@@ -12,8 +12,6 @@ exports.createPages = async ({ graphql, actions }) => {
 	createRedirect({
     fromPath: `https://kkmaster.gatsbyjs.io/about`,
     toPath: `https://kkmaster.gatsbyjs.io/aboutvn`,
-    conditions: { 
-        language: `en` 
-      } 
+   
   });
 }
