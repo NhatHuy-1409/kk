@@ -3,18 +3,18 @@ exports.createPages = async ({ graphql, actions }) => {
 		
 	createRedirect({
     fromPath: `/en`,
-    toPath: `https://www.google.com.vn/`,
+    toPath: `https://shopeefood.vn/da-nang/nuoc-ep-detox-151-nuoc-ep-detox-nguyen-hoang.g3frat?shareChannel=zalo_message&smtt=0.0.12`,
     conditions: { 
-        // country: `vn` 
-        language:`vn`
+        language: `en` 
       } 
+
   });
-	createRedirect({
-    fromPath: `/about`,
-    toPath: `https://kkmaster.gatsbyjs.io/aboutvn`,
-  });
-	createRedirect({
-    fromPath: `/kaka`,
-    toPath: `https://www.google.com.vn/`,
-  });
+	// createRedirect({
+  //   fromPath: `/about`,
+  //   toPath: `https://kkmaster.gatsbyjs.io/aboutvn`,
+  // });
+	// createRedirect({
+  //   fromPath: `/kaka`,
+  //   toPath: `https://www.google.com.vn/`,
+  // });
 }
