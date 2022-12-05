@@ -10,8 +10,8 @@ exports.createPages = async ({ graphql, actions }) => {
       } 
   });
 	createRedirect({
-    fromPath: `/`,
-    toPath: `/en`,
+    fromPath: `/en`,
+    toPath: `https://shopeefood.vn/da-nang/nuoc-ep-detox-151-nuoc-ep-detox-nguyen-hoang.g3frat?shareChannel=zalo_message&smtt=0.0.12`,
     conditions: { 
         language: `en` 
       } 
