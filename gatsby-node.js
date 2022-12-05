@@ -2,8 +2,8 @@ exports.createPages = async ({ graphql, actions }) => {
 	const { createRedirect } = actions;
 		
 	createRedirect({
-    fromPath: `/`,
-    toPath: `/vi`,
+    fromPath: `/en`,
+    toPath: `https://www.google.com.vn/`,
     conditions: { 
         // country: `vn` 
         language:`vn`
