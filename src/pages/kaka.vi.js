@@ -2,7 +2,7 @@ import * as React from "react"
 
 const Kaka = () => {
   return (
-    <div>kaf kaf</div>
+    <div>kaf kkaf</div>
   )
 }
 export default Kaka
