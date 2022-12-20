@@ -1,9 +1,9 @@
 exports.createPages = async ({ graphql, actions }) => {
   const { createRedirect } = actions;
   createRedirect({
-    fromPath: `/about`,
-    toPath: `/aboutvn`,
-    statusCode: 200,
+    fromPath: `/about/`,
+    toPath: `/aboutvn/`,
+    isPermanent: true
   });
   // createRedirect({
   //   fromPath: `/about/`,
