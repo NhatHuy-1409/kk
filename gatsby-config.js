@@ -17,5 +17,6 @@ module.exports = {
         langKeyForNull: 'any',
       }
     }
+    `gatsby-plugin-meta-redirect`
   ],
 }
