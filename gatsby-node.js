@@ -13,9 +13,7 @@ exports.createPages = async ({ graphql, actions }) => {
   createRedirect({
     fromPath: `/about/*`,
     toPath: `/aboutvn/`,
-    conditions: {
-      
-    }
+    statusCode: 200,
   });
   // createRedirect({
   //   fromPath: `/kaka`,
