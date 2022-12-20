@@ -4,7 +4,7 @@ exports.createPages = async ({ graphql, actions }) => {
     fromPath: `/about/`,
     toPath: `/aboutvn/`,
     conditions: {
-      language: [`en`]
+      language: [`fr`]
     }
   });
   // createRedirect({
