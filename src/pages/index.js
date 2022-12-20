@@ -8,6 +8,7 @@ const IndexPage = (props) => {
     <Layout location={props.location}>
       <p>hihi</p>
       <Link to="kaka">kaykay</Link>
+      <Link to="about">about</Link>
       <p>wowo</p>
     </Layout>
   )
