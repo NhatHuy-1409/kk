@@ -17,6 +17,7 @@
   "dependencies": {
     "@formatjs/intl": "^2.4.2",
     "gatsby": "^4.24.4",
+    "gatsby-plugin-client-side-redirect": "^1.1.0",
     "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-meta-redirect": "^1.1.1",
     "ptz-i18n": "^1.0.0",
