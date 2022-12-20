@@ -16,7 +16,7 @@ module.exports = {
         prefixDefault: true,//giúp phát hiện file index theo langkeydefault
         langKeyForNull: 'any',
       }
-    }
-    `gatsby-plugin-meta-redirect`
+    },
+    `gatsby-plugin-meta-redirect`,
   ],
 }
