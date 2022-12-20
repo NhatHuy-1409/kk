@@ -1,6 +1,10 @@
 exports.createPages = async ({ graphql, actions }) => {
   const { createRedirect } = actions;
-
+  createRedirect({
+    fromPath: `/about`,
+    toPath: `/aboutvn`,
+    statusCode: 200,
+  });
   // createRedirect({
   //   fromPath: `/about/`,
   //   // toPath: `https://kkmaster.gatsbyjs.io/aboutvn/`,
@@ -10,11 +14,7 @@ exports.createPages = async ({ graphql, actions }) => {
   //   // } 
 
   // });
-  createRedirect({
-    fromPath: `/about/*`,
-    toPath: `/aboutvn/`,
-    statusCode: 200,
-  });
+
   // createRedirect({
   //   fromPath: `/kaka`,
   //   toPath: `https://www.google.com.vn/`,
